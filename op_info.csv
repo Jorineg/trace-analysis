@@ -1,0 +1,223 @@
+op_code;num_inputs;group;cp_type
+ba+*;;;AggregateBinary
+tak+*;;;AggregateTernary
+tack+*;;;AggregateTernary
+uak+;;;AggregateUnary
+uark+;;;AggregateUnary
+uack+;;;AggregateUnary
+uasqk+;;;AggregateUnary
+uarsqk+;;;AggregateUnary
+uacsqk+;;;AggregateUnary
+uamean;;;AggregateUnary
+uarmean;;;AggregateUnary
+uacmean;;;AggregateUnary
+uavar;;;AggregateUnary
+uarvar;;;AggregateUnary
+uacvar;;;AggregateUnary
+uamax;;;AggregateUnary
+uarmax;;;AggregateUnary
+uarimax;;;AggregateUnary
+uacmax;;;AggregateUnary
+uamin;;;AggregateUnary
+uarmin;;;AggregateUnary
+uarimin;;;AggregateUnary
+uacmin;;;AggregateUnary
+ua+;;;AggregateUnary
+uar+;;;AggregateUnary
+uac+;;;AggregateUnary
+ua*;;;AggregateUnary
+uar*;;;AggregateUnary
+uac*;;;AggregateUnary
+uatrace;;;AggregateUnary
+uaktrace;;;AggregateUnary
+nrow;;;AggregateUnary
+ncol;;;AggregateUnary
+length;;;AggregateUnary
+exists;;;AggregateUnary
+lineage;;;AggregateUnary
+uacd;;;AggregateUnary
+uacdr;;;AggregateUnary
+uacdc;;;AggregateUnary
+uacdap;;;AggregateUnary
+uacdapr;;;AggregateUnary
+uacdapc;;;AggregateUnary
+unique;;;AggregateUnary
+uniquer;;;AggregateUnary
+uniquec;;;AggregateUnary
+uaggouterchain;;;UaggOuterChain
++;;Arithmetic;Binary
+-;;Arithmetic;Binary
+*;;Arithmetic;Binary
+/;;Arithmetic;Binary
+%%;;Arithmetic;Binary
+%/%;;Arithmetic;Binary
+^;;Arithmetic;Binary
+1-*;;Arithmetic;Binary
+^2;;Arithmetic;Binary
+*2;;Arithmetic;Binary
+-nz;;Arithmetic;Binary
+&&;;Boolean;Binary
+||;;Boolean;Binary
+xor;;Boolean;Binary
+bitwAnd;;Boolean;Binary
+bitwOr;;Boolean;Binary
+bitwXor;;Boolean;Binary
+bitwShiftL;;Boolean;Binary
+bitwShiftR;;Boolean;Binary
+!;;Boolean;Unary
+==;;Relational;Binary
+!=;;Relational;Binary
+<;;Relational;Binary
+>;;Relational;Binary
+<=;;Relational;Binary
+>=;;Relational;Binary
+log;;Builtin;Builtin
+log_nz;;Builtin;Builtin
+solve;;;Binary
+max;;;Binary
+min;;;Binary
+dropInvalidType;;;Binary
+dropInvalidLength;;;Binary
+freplicate;;;Binary
+valueSwap;;;Binary
+applySchema;;;Binary
+_map;;;Ternary
+nmax;;;BuiltinNary
+nmin;;;BuiltinNary
+n+;;;BuiltinNary
+exp;;;Unary
+abs;;;Unary
+sin;;;Unary
+cos;;;Unary
+tan;;;Unary
+sinh;;;Unary
+cosh;;;Unary
+tanh;;;Unary
+asin;;;Unary
+acos;;;Unary
+atan;;;Unary
+sign;;;Unary
+sqrt;;;Unary
+plogp;;;Unary
+print;;;Unary
+assert;;;Unary
+round;;;Unary
+ceil;;;Unary
+floor;;;Unary
+ucumk+;;;Unary
+ucum*;;;Unary
+ucumk+*;;;Unary
+ucummin;;;Unary
+ucummax;;;Unary
+stop;;;Unary
+inverse;;;Unary
+cholesky;;;Unary
+sprop;;;Unary
+sigmoid;;;Unary
+typeOf;;;Unary
+detectSchema;;;Unary
+colnames;;;Unary
+isna;;;Unary
+isnan;;;Unary
+isinf;;;Unary
+printf;;;BuiltinNary
+cbind;;;BuiltinNary
+rbind;;;BuiltinNary
+eval;;;BuiltinNary
+list;;;BuiltinNary
+autoDiff;;Parameterized Builtin;ParameterizedBuiltin
+contains;;Parameterized Builtin;ParameterizedBuiltin
+paramserv;;Parameterized Builtin;ParameterizedBuiltin
+nvlist;;Parameterized Builtin;ParameterizedBuiltin
+cdf;;Parameterized Builtin;ParameterizedBuiltin
+invcdf;;Parameterized Builtin;ParameterizedBuiltin
+groupedagg;;Parameterized Builtin;ParameterizedBuiltin
+rmempty;;Parameterized Builtin;ParameterizedBuiltin
+replace;;Parameterized Builtin;ParameterizedBuiltin
+lowertri;;Parameterized Builtin;ParameterizedBuiltin
+uppertri;;Parameterized Builtin;ParameterizedBuiltin
+rexpand;;Parameterized Builtin;ParameterizedBuiltin
+toString;;Parameterized Builtin;ParameterizedBuiltin
+tokenize;;Parameterized Builtin;ParameterizedBuiltin
+transformapply;;Parameterized Builtin;ParameterizedBuiltin
+transformdecode;;Parameterized Builtin;ParameterizedBuiltin
+transformcolmap;;Parameterized Builtin;ParameterizedBuiltin
+transformmeta;;Parameterized Builtin;ParameterizedBuiltin
+transformencode;;Parameterized Builtin;MultiReturnParameterizedBuiltin
++*;;Ternary;Ternary
+-*;;Ternary;Ternary
+ifelse;;Ternary;Ternary
+assignvar;;Variable;Variable
+cpvar;;Variable;Variable
+mvvar;;Variable;Variable
+rmvar;;Variable;Variable
+rmfilevar;;Variable;Variable
+castdts;;Variable;Variable
+castdtm;;Variable;Variable
+castdtf;;Variable;Variable
+castdtl;;Variable;Variable
+castvti;;Variable;Variable
+castvtd;;Variable;Variable
+castvtb;;Variable;Variable
+attachfiletovar;;Variable;Variable
+read;;Variable;Variable
+write;;Variable;Variable
+createvar;;Variable;Variable
+r';;Reorg;Reorg
+rev;;Reorg;Reorg
+rdiag;;Reorg;Reorg
+rshape;;Reorg;Reshape
+rsort;;Reorg;Reorg
+relu_backward;;Convolution;Dnn
+relu_maxpooling;;Convolution;Dnn
+relu_maxpooling_backward;;Convolution;Dnn
+maxpooling;;Convolution;Dnn
+maxpooling_backward;;Convolution;Dnn
+avgpooling;;Convolution;Dnn
+avgpooling_backward;;Convolution;Dnn
+conv2d;;Convolution;Dnn
+conv2d_bias_add;;Convolution;Dnn
+conv2d_backward_filter;;Convolution;Dnn
+conv2d_backward_data;;Convolution;Dnn
+bias_add;;Convolution;Dnn
+bias_multiply;;Convolution;Dnn
+batch_norm2d;;Convolution;Dnn
+batch_norm2d_backward;;Convolution;Dnn
+wsloss;;Quaternary;Quaternary
+wsigmoid;;Quaternary;Quaternary
+wdivmm;;Quaternary;Quaternary
+wcemm;;Quaternary;Quaternary
+wumm;;Quaternary;Quaternary
+fcall;;User-defined;FCall
+append;;;Append
+remove;;;Append
+rand;;Data Generation;Rand
+seq;;Data Generation;Rand
+sinit;;Data Generation;StringInit
+sample;;Data Generation;Rand
+time;;Data Generation;Rand
+frame;;Data Generation;Rand
+ctable;;;Ctable
+ctableexpand;;;Ctable
+cm;;central moment, covariance, quantiles (sort/pick);CentralMoment
+cov;;central moment, covariance, quantiles (sort/pick);Covariance
+qsort;;central moment, covariance, quantiles (sort/pick);QSort
+qpick;;central moment, covariance, quantiles (sort/pick);QPick
+rightIndex;;central moment, covariance, quantiles (sort/pick);MatrixIndexing
+leftIndex;;central moment, covariance, quantiles (sort/pick);MatrixIndexing
+tsmm;;central moment, covariance, quantiles (sort/pick);MMTSJ
+pmm;;central moment, covariance, quantiles (sort/pick);PMMJ
+mmchain;;central moment, covariance, quantiles (sort/pick);MMChain
+qr;;central moment, covariance, quantiles (sort/pick);MultiReturnBuiltin
+lu;;central moment, covariance, quantiles (sort/pick);MultiReturnBuiltin
+eigen;;central moment, covariance, quantiles (sort/pick);MultiReturnBuiltin
+svd;;central moment, covariance, quantiles (sort/pick);MultiReturnBuiltin
+partition;;;Partition
+compress;;;Compression
+decompress;;;DeCompression
+spoof;;;SpoofFused
+prefetch;;;Prefetch
+broadcast;;;Broadcast
+trigremote;;;TrigRemote
+local;;;Local
+sql;;;Sql

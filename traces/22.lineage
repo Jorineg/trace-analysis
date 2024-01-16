@@ -1,0 +1,12 @@
+(9) (L) 0·SCALAR·INT64·true
+(0) (C) CP°rand°50·SCALAR·INT64·true°10·SCALAR·INT64·true°1000°-1°10°1.0°7°uniform°1.0°8°xxx·MATRIX·FP64
+(1) (L) 2·SCALAR·INT64·true
+(2) (I) ^2 (0) (1)
+(8) (I) abs (2)
+(10) (I) - (9) (8)
+(17) (L) 1·SCALAR·INT64·true
+(18) (I) - (10) (17)
+(11) (I) abs (0)
+(12) (I) - (9) (11)
+(19) (I) - (12) (17)
+(22) (I) - (18) (19)

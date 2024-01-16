@@ -1,0 +1,10 @@
+(0) (C) CP°createvar°pREADxxx°target/testTemp/functions/lineage/LineageDebuggerTest/in/X°false°MATRIX°text°10°5°-1°-1°copy
+(2) (I) rblk (0) [0]
+(3) (L) 3·SCALAR·INT64·true
+(4) (I) + (2) (3) [0]
+(5) (L) 5·SCALAR·INT64·true
+(6) (I) * (4) (5) [0]
+(1) (C) CP°createvar°pREADxxx°target/testTemp/functions/lineage/LineageDebuggerTest/in/Y°false°MATRIX°text°10°5°-1°-1°copy
+(7) (I) rblk (1) [0]
+(8) (I) * (6) (7) [1]
+(9) (I) tsmm (8) [1]

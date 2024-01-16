@@ -1,0 +1,11 @@
+(0) (C) CP°rand°1000·SCALAR·INT64·true°1000·SCALAR·INT64·true°1000°0.0°1.0°1.0°1°uniform°1.0°8°xxx·MATRIX·FP64
+(2) (C) CP°rand°1000·SCALAR·INT64·true°1000·SCALAR·INT64·true°1000°0.0°1.0°1.0°2°uniform°1.0°8°xxx·MATRIX·FP64
+(4) (I) ba+* (0) (2)
+(5) (C) CP°rand°1000·SCALAR·INT64·true°1000·SCALAR·INT64·true°1000°0.0°1.0°1.0°3°uniform°1.0°8°xxx·MATRIX·FP64
+(7) (I) ba+* (4) (5)
+(8) (C) CP°rand°1000·SCALAR·INT64·true°1000·SCALAR·INT64·true°1000°0.0°1.0°1.0°4°uniform°1.0°8°xxx·MATRIX·FP64
+(10) (C) CP°rand°1000·SCALAR·INT64·true°1000·SCALAR·INT64·true°1000°0.0°1.0°1.0°5°uniform°1.0°8°xxx·MATRIX·FP64
+(12) (I) ba+* (8) (10)
+(13) (C) CP°rand°1000·SCALAR·INT64·true°1000·SCALAR·INT64·true°1000°0.0°1.0°1.0°6°uniform°1.0°8°xxx·MATRIX·FP64
+(15) (I) ba+* (12) (13)
+(16) (I) ba+* (7) (15)

@@ -1,0 +1,30 @@
+(3) (C) CP°rand°1·SCALAR·INT64·true°1·SCALAR·INT64·true°1000°0°0°1.0°-1°uniform°1.0°8°xxx·MATRIX·FP64
+(0) (C) CP°createvar°pREADxxx°target/testTemp/functions/lineage/LineageRewriteTest/in/X°false°MATRIX°text°100°30°-1°-1°copy
+(1) (I) rblk (0)
+(19) (I) tsmm (1)
+(257) (I) uak+ (19)
+(2) (C) CP°rand°100·SCALAR·INT64·true°1·SCALAR·INT64·true°1000°0.0°1.0°1.0°2°uniform°1.0°8°xxx·MATRIX·FP64
+(35) (I) r' (2)
+(51) (I) ba+* (35) (1)
+(67) (I) r' (51)
+(273) (I) uak+ (67)
+(289) (I) + (257) (273)
+(92) (I) tsmm (1)
+(94) (C) CP°rand°100·SCALAR·INT64·true°1·SCALAR·INT64·true°1000°1°1°1.0°-1°uniform°1.0°8°xxx·MATRIX·FP64
+(110) (I) r' (94)
+(126) (I) ba+* (110) (1)
+(142) (I) r' (126)
+(158) (I) cbind (92) (142)
+(174) (I) tsmm (94)
+(190) (I) cbind (126) (174)
+(206) (I) rbind (158) (190)
+(305) (I) uak+ (206)
+(321) (I) + (289) (305)
+(207) (I) r' (2)
+(209) (I) cbind (1) (94)
+(225) (I) ba+* (207) (209)
+(236) (I) r' (225)
+(337) (I) uak+ (236)
+(353) (I) + (321) (337)
+(369) (L) 1·SCALAR·INT64·true
+(370) (I) leftIndex (3) (353) (369) (369) (369) (369)

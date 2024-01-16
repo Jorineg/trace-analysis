@@ -1,0 +1,8 @@
+(7) (C) CP°createvar°pREADxxx°target/testTemp/functions/lineage/FullReusePerfTest/in/X°false°MATRIX°text°2000°128°-1°-1°copy
+(8) (C) CP°seq°10°1°1000°1·SCALAR·INT64·true°10·SCALAR·INT64·true°1·SCALAR·INT64·true°xxx·MATRIX·FP64
+(11) (C) CP°rand°6400·SCALAR·INT64·true°784·SCALAR·INT64·true°1000°0°20°1.0°42°uniform°1.0°8°xxx·MATRIX·FP64
+(12) (L) 1·SCALAR·INT64·true
+(22) (D) dedup_X_SB515_3 (12) (7)
+(4074) (I) rightIndex (7) (12) (22) (12) (12) [1]
+(10000) (I) - (4074) (7)
+(10001) (I) / (10000) (10000)

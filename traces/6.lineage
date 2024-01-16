@@ -1,0 +1,5 @@
+(7) (C) CP°createvar°pREADxxx°target/testTemp/functions/lineage/FullReusePerfTest/in/X°false°MATRIX°text°2000°128°-1°-1°copy
+(12) (L) 1·SCALAR·INT64·true
+(22) (L) 2000·SCALAR·INT64·true
+(4074) (I) rightIndex (7) (12) (22) (12) (12)
+(4076) (I) tsmm (4074)

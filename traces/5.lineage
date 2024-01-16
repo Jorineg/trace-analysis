@@ -1,0 +1,9 @@
+(0) (C) CP°createvar°pREADxxx°target/testTemp/functions/lineage/FedUDFReuseTest/in/X1°false°MATRIX°text°5°20°-1°100°copy
+(1) (C) CP°createvar°pREADxxx°target/testTemp/functions/lineage/FedUDFReuseTest/in/X2°false°MATRIX°text°5°20°-1°100°copy
+(2) (C) CP°createvar°pREADxxx°target/testTemp/functions/lineage/FedUDFReuseTest/in/X3°false°MATRIX°text°5°20°-1°100°copy
+(3) (C) CP°createvar°pREADxxx°target/testTemp/functions/lineage/FedUDFReuseTest/in/X4°false°MATRIX°text°5°20°-1°100°copy
+(4) (I) rbind (0) (1) (2) (3)
+(10) (L) null·SCALAR·BOOLEAN·true
+(11) (L) false·SCALAR·BOOLEAN·true
+(12) (L) true·SCALAR·BOOLEAN·true
+(40) (I) lowertri (4) (10) (11) (12)

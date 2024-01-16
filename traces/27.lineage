@@ -1,0 +1,8 @@
+(0) (C) CP°createvar°pREADxxx°target/testTemp/functions/lineage/LineageTraceTest/in/X°false°MATRIX°text°10°5°-1°-1°copy
+(1) (I) rblk (0)
+(2) (L) 3·SCALAR·INT64·true
+(3) (I) * (1) (2)
+(4) (L) 5·SCALAR·INT64·true
+(5) (I) + (3) (4)
+(6) (I) tsmm (5)
+(7) (I) eigen (6)
